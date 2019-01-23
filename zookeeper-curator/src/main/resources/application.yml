@@ -1,0 +1,5 @@
+zk:
+　　url: 127.0.0.1:2181
+　　localPath: /newlock
+　　timeout: 3000
+
