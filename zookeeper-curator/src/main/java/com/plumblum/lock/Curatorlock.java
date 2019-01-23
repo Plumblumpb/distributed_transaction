@@ -22,7 +22,7 @@ import java.util.concurrent.locks.Lock;
  * @Description:
  */
 @Component()
-public class ZKlock implements Lock {
+public class Curatorlock implements Lock {
 
     @Autowired
     private CuratorFramework zkClient;
